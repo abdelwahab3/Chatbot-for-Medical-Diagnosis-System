@@ -1,0 +1,361 @@
+{
+  "intents":
+  
+  [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Introduce_chatbot",
+      "patterns": ["Tell me about this chat", 
+        "How can you help me?", 
+        "How can this Chatbot assist me?",
+         "What are you?" , 
+         "What is a Chatbot?"],
+
+       "responses": [
+      "I'm a Chatbot. A dialogue engine, if you like. I'm not human... but I do think of myself as a person. I'm here for you, whenever you need me. I'd like diabetes related discussions to become easier over time. I do this by listening to you - as well as making some key concepts easier to talk about.” ",
+      "I serve as a Chatbot. If you will, consider it a dialogue engine. I'm not human... but I consider myself to be a person. I'm there whenever you need me. I'd like diabetes-related conversations to become less difficult over time. I accomplish this by listening to you and making certain essential topics easy to discuss.",
+      "I function as a Chatbot. Consider it a conversation engine, if you will. I'm not a human, yet I perceive myself to be one. I'm there whenever you need me. I'd want to see diabetes-related discussions grow less challenging over time. This is accomplished through listening to you and making some important issues easier to discuss."]
+    },
+    {
+      "tag": "Discuss_basics",
+      "patterns": ["could you guide me ?", "Lets discuss the basics", " Let's start with the fundamentals. ", " Let's start with the obvious. ", " Let us begin with the obvious. ","Why dont you start?", "Lets talk about basics", "Walk me through it"],
+      "responses": ["Why not try one of these? What is diabetes? Diabetes stages  , Diabetes types, Diabetes symptoms, Diabetes treatments, Diabetes diets, How to live with diabetes?",
+                    "select one of them 'What is diabetes?' , 'Diabetes stages ' , 'Diabetes types' , 'Diabetes symptoms' , 'Diabetes treatment'",
+                    "Why not give one of these a shot? What is diabetes? Diabetes stages, Diabetes types, Diabetes symptoms, Diabetes treatments, Diabetes diets, How to live with diabetes?"]
+               
+
+    },
+   
+  
+    {
+      "tag": "Greetings_offerhelp",
+      "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+      "responses": ["Hello, thanks for coming in. How may I assist you? ", "Good to see you again. What are you looking for this time?", "Hi there how can I help?"]
+
+    },
+    {
+      "tag": "Introduce_chatbot",
+       "patterns": ["Tell me about this chat", "How can you help me?", "How can this Chatbot assist me?”, “What are you?”, “What is a Chatbot?"],
+       "responses": ["I'm a Chatbot a dialogue engine not human... but I do think of myself as a person. I am here for you whenever you need me. ", "I serve as a Chatbot consider it a dialogue engine not human... but I consider myself to be one. I am there whenever you need me."]
+    },
+
+    {
+      "tag": "Discuss_basics",
+      "patterns": ["Let us discuss the basics about diabetes", "Talk about basics", "Walk me through it"],
+      "responses": ["That is great so why do not we start with one of these… What is diabetes? Diabetes stages or Diabetes types or Diabetes symptoms or Diabetes treatments or Diabetes diets or How to live with diabetes? ", "Happy to help you why not try one of these…What is diabetes? Stages or types or symptoms or treatments or diets or How to live with diabetes? "]
+    },
+    {  
+      "tag": "Query",
+      "patterns": ["I have a question?", "Discuss something else", "question?"],
+      "responses": ["Am here to help so what will we talking about…What is diabetes? Its stages or types or symptoms or treatments or diet or how to live with diabetes?", "Glad to answer any of your questions regarding diabetes its stages or types or symptoms or treatments or diets and how to live with diabetes?"]
+    },
+    {
+      "tag": "What_is_diabetes",
+      "patterns": ["What exactly is diabetes? ", "What is diabetes? ", "Tell me about diabetes"],
+      "responses": ["Diabetes is a long-lasting health condition that affects how your body turns food into energy. In diabetes your body either does not make enough insulin or cannot use the insulin it makes as well as it should. Over time that can cause serious health problems such as heart disease or vision loss and kidney disease. Would you like to explore the types of diabetes or its complications?", "Diabetes is a disease that occurs when your blood glucose is too high. Over time having too much glucose in your blood can cause health problems. Although diabetes has no cure you can take steps to manage your diabetes and stay healthy. Maybe you'd like to know more about types of diabetes or the complications? "]
+    },
+    {
+      "tag": "Know_more",
+      "patterns": ["Can you tell me more about diabetes", " I'm still curious. ", "more info about diabetes"],
+      "responses": ["What would you like to know more about for example... 'stages' or 'types' or 'treatments' or 'symptoms' or 'living with diabetes' or 'diet'.", 
+                "What are you interested in learning more about for instance…stages or types or treatments or 'symptoms' or 'living with diabetes' or 'diet'."]
+    },
+    {
+      "tag": "types",
+      "patterns": ["types", "What are the types of diabetes?”, “Yes I want to know about the types"],
+      "responses": ["The types of diabetes are: Type 1 diabetes & Type 2 diabetes & Gestational diabetes and Prediabetes. These are the main and common types. Which type would you like to start with? ", "Diabetes is classified into three types: type 1 diabetes & type 2 diabetes & gestational diabetes and Prediabetes. And these are the most popular and important types. Choose the type you want to learn more about."]
+    },
+    {
+      "tag": "type_1",
+      "patterns": ["Type 1", "What is type 1?", "I want to know more about type 1","1"],
+      "responses": ["Type 1 diabetes is believed to be an autoimmune condition. This means your immune system mistakenly attacks and destroys the beta cells in your pancreas that produce insulin. The damage is permanent. Still want to know its causes?"]
+    },
+    {
+      "tag": "Causes_1",
+      "patterns": ["Can you tell me more about type 1 causes", " I am still curious about its causes "],
+      "responses": ["This is an immune system disease. Your body attacks and destroys insulin-producing cells in your pancreas. Without insulin to allow glucose to enter your cells, glucose builds up in your bloodstream. Genes may also play a role in some patients. Also, a virus may trigger the immune system attack. How about we go to another type or would you like to go to the stages?"]
+    },
+    {
+      "tag": "type_2",
+      "patterns": ["Type 2", "What is type 2?", "I want to know more about type 2","2"],
+      "responses": ["Type 2 diabetes starts out as insulin resistance. This means your body cannot use insulin efficiently, which causes your pancreas to produce more insulin until it cannot keep up with demand. Insulin production then decreases, which causes high blood sugar. Know about the causes or want to?"]
+    },
+    
+    {
+      "tag": "Causes_2",
+      "patterns": ["Want to know about type 2 causes", " so the causes are? "],
+      "responses": ["The exact cause of type 2 diabetes is unknown. Contributing factors may include: genetics or a more sedentary lifestyle or higher weight or obesity. There may also be other health factors and environmental reasons. How about we go to another type or would you like to go to the stages?"]
+    },
+
+    {
+        "tag": "Gestational",
+        "patterns": ["Gestational diabetes", "What is gestational?"," gestational”, pregnancy diabetes"],
+        "responses": ["Gestational diabetes is caused by insulin-blocking hormones that are produced during pregnancy. It is often seen in people with preexisting prediabetes and a family history of diabetes. Are the causes clear or still want to know it?"]
+    },
+
+    {
+        "tag": "Causes_G",
+        "patterns": ["Still want to know"],
+        "responses": ["Caused by hormones produced by the placenta during your pregnancy make your cells in your body more resistant to insulin. Your pancreas cannot make enough insulin to overcome this resistance. How about we go to another type or would you like to go to the stages?"]
+    },
+
+    {
+        "tag": "Prediabetes ",
+        "patterns": ["Prediabetes", "What is Prediabetes?"],
+        "responses": ["Prediabetes is a health condition in which you have higher blood sugar levels than normal but not high enough to be considered diabetes. How about we go to another type or would you like to go to the stages?"]
+    },
+
+
+    {
+        "tag": "stages",
+        "patterns": ["stages", "What are the stages of diabetes?", "Go to stages"],
+        "responses": ["Which type of diabetes would you like to know its stages? (1 or 2 or end stage) "]
+
+    },
+
+    {
+        "tag": "stages_type_1",
+        "patterns": ["Stages of type 1", "type 1 stages", "type 1","1"],
+        "responses": ["Pre-Stage 1- In this stage, genetic analysis can help identify underlying genotypes that are commonly associated with type 1 diabetes. Stage 1 - autoantibodies have already begun to attack the beta cells in the pancreas. But blood sugar levels still remain within the normal range. Stage 2 - a lack of insulin leads to rising blood sugar levels due to glucose intolerance. Stage 3 - type 1 diabetes diagnosis. Would you like to know about type 2 stages or the end stage?"]
+    },
+
+    {
+        "tag": "stages_type_2",
+        "patterns": ["Stages of type 2", "type 2 stages", "type 2","2"],
+        "responses": ["Stage 1 : muscle and fat and liver cells become resistant to insulin and have trouble bringing glucose into the cell. Stage 2 - cells become so insulin resistant that the extra insulin is not enough to lower blood sugar levels back to normal. Stage 3 - blood sugar levels remain abnormally high leading to a diagnosis of type 2 diabetes. Stage 4 - vascular complications can occur as a result of high blood sugar. How about moving forward to end stage? "]
+
+    },
+
+
+    {
+        "tag": "end_stage",
+        "patterns": ["end stage"],
+        "responses": ["end-stage diabetes can lead to what is known as end-stage diabetic complications or advanced complications occurs after many years of living with diabetes. Let us discuss something else."]
+    },
+
+
+    {
+        "tag": "symptoms",
+        "patterns": ["symptoms", "What are the symptoms of diabetes?"],
+        "responses": ["Symptoms of diabetes include: Increased thirst. Weak and tired feeling. Blurred vision. Numbness or tingling in the hands or feet. Slow-healing sores or cuts. Unplanned weight loss. Frequent urination. Frequent unexplained infections. Dry mouth. Other symptoms: In women- Dry and itchy skin and frequent yeast infections or urinary tract infections. In men- Decreased sex drive, erectile dysfunction and decreased muscle strength. Would you like us to discuss treatments"]
+    },
+
+    {
+        "tag": "treatments",
+        "patterns": ["treatments", "What are the treatments?", "When to see a doctor", "How to treat it? "],
+        "responses": ["No matter what type of diabetes you will need to work closely with your doctor to manage it. The main goal is to keep blood glucose levels within your target range. If you have gestational diabetes your blood sugar targets will be lower than people with other types of diabetes.", "If you have type 1 diabetes you take the insulin by injection or by using a pump. Type 2 diabetes you may have to use insulin or tablets initially treated by eating well and moving more. How about knowing diets to follow."]
+
+    },
+ 
+    {
+        "tag": "diet",
+        "patterns": ["diet", "Diets to follow"],
+        "responses": ["Watch your portion sizes and calories. Cut back on fried foods and sweets and sugary drinks and anything salty or fatty. Focus instead on lots of veggies with whole grains and lean protein with low-fat dairy and fruits and healthy fats. You may need to eat every few hours to keep your blood sugar levels steady. Your doctor or diabetes educator can help you fine-tune a diet so it works for you."]
+
+    },
+
+    {
+        "tag": "living_with_diabetes",
+        "patterns": ["How to live with diabetes?", "What is the right lifestyle?", "Diabetes Care"],
+        "responses": ["If you are diagnosed with diabetes you will need to eat healthily and take regular exercise and carry out regular blood tests to ensure your blood glucose levels stay balanced. You can use the BMI healthy weight calculator to check whether you're a healthy weight."]
+
+    },
+
+    {
+        "tag": "complications",
+        "patterns": ["What are diabetes complications?", "complications?"],
+        "responses": ["Complications of diabetes generally develop over time. Having poorly managed blood sugar levels increases the risk of serious complications that can become life threatening. Chronic complications include: Vessel disease which can lead to heart attack or stroke. Eye problems. Infection or skin conditions. Nerve and kidney damage .Complications in pregnancy: High blood pressure. Miscarriage or stillbirth. Birth defects. Would you like to know how to diagnose diabetes to prevent these complications."]
+
+    },
+
+    {
+      "tag": "prevention",
+      "patterns": ["Can diabetes be prevented?", " What ways are there to prevent diabetes?”, “Diabetes prevention?"],
+      "responses": ["There is no known prevention for type 1 diabetes. But you can lower your risk of type 2 diabetes if you: - Manage your weight and focus on a nutrient-dense diet - Exercise regularly - Avoid smoking, high triglycerides, and low HDL cholesterol levels. Are you interested to know more?"]
+      
+
+  },
+
+  {
+
+      "tag": "diagnoses",
+      "patterns": ["How is diabetes diagnosed?", "How is diabetes identified?", "What tests done to check for diabetes? "],
+      "responses": ["Diabetes is diagnosed and managed by checking your glucose level in a blood test. There are three tests that can measure your blood glucose level: fasting glucose test, random glucose test and A1c test. Tell me which test you want to know more about. "]
+      
+  },
+  {
+    "tag": "Fasting_plasma_glucose_test ",
+    "patterns": ["Fasting plasma glucose test ", "What is fasting plasma glucose test?"],
+    "responses": ["This test is best done in the morning after an eight hour fast (nothing to eat or drink except sips of water). Would you like to be diagnosed? "]
+  
+  },
+
+  {
+
+    "tag": "Random_plasma_glucose_test",
+    "patterns": ["Random plasma glucose test ", "What is random plasma glucose test?"],
+    "responses": ["This test can be done any time without the need to fast. Would you like to be diagnosed?"]
+  
+
+},
+  
+{
+    "tag": "A1c_test ",
+    "patterns": ["A1c test", "What is A1c test?"],
+    "responses": ["This test, also called HbA1C or glycated hemoglobin test, provides your average blood glucose level over the past two to three months. This test measures the amount of glucose attached to hemoglobin, the protein in your red blood cells that carries oxygen. You don’t need to fast before this test. Would you like to be diagnosed?"]
+  
+
+},
+  
+{
+    "tag": "Gestational_diabetes_tests ",
+    "patterns": ["Is there a gestational diabetes tests?", "What are gestational diabetes tests? "],
+    "responses": ["There are two blood glucose tests if you are pregnant. With a glucose challenge test, you drink a sugary liquid and your glucose level is checked one hour later, if this test shows a higher than normal level of glucose (over 140 ml/dL) then you have it. Would you like to be diagnosed?"]
+  
+
+},
+ 
+{
+
+    "tag": "Troubleshooting",
+    "patterns": ["I did not receive a response ", " I am not sure.", "This is not what I asked about?"," "],
+    "responses": ["I did not receive a response, can you try that again?", "That was an invalid ", " Please select from the options stated"]
+},
+
+{
+
+  "tag": "Diagnoses_practical",
+  "patterns": ["Can I be diagnosed?", "And how can I be diagnosed?", "Yes do the diagnoses"],
+  "responses": ["Before we start your diagnoses, there are some important definitions you need to know. Would you like to know them or continue to the diagnoses?"]
+
+
+},
+
+
+{
+
+  "tag": "Diagnoses_practical_def",
+  "patterns": ["Tell them to me", "Yes I want to know the definitions"],
+  "responses": ["Pregnancies: Number of times pregnant. 1. Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test. 2. Blood Pressure: Diastolic blood pressure (mm Hg). 3. Skin Thickness: Triceps skin fold thickness (mm). 4. Insulin: 2-Hour serum insulin (mu U/ml). 5. BMI: Body mass index (weight in kg/ (height in m) ^2). 6. DiabetesPedigreeFunction: Diabetes pedigree function. Age: Age (years). Would you like to know more about any of these?"]
+
+
+},
+
+
+
+{
+  "tag": "Diagnoses_practical_def_glucose",
+  "patterns": ["Tell about glucose", "Yes tell me the first one"],
+  "responses": ["The glucose tolerance test identifies abnormalities in the way your body handles glucose after a meal — often before your fasting blood glucose level becomes abnormal. Still want to know more of definitions?"]
+  
+
+},
+
+
+    
+    
+{
+
+    "tag": "Diagnoses_practical_def_BP",
+    "patterns": ["Tell about blood pressure", "Yes tell me the second one"],
+    "responses": ["It is expressed as a measurement with two numbers, one number on top (systolic) and one on the bottom (diastolic), like a fraction. For example, 120/80 mm Hg. Blood pressure is measured in millimeters of mercury. That’s what the mm/Hg stands for. Still want to know more of definitions?"]
+  
+
+},
+  
+  
+{
+    "tag": "Diagnoses_practical_def_ST",
+    "patterns": ["Tell about skin thickness", "Yes tell me the third one"],
+    "responses": ["A value used to estimate body fat, measured on the right arm halfway between the olecranon process of the elbow and the acromial process of the scapula. Still want to know more of definitions?"]
+    
+
+},
+  
+  
+  
+{
+
+      "tag": "Diagnoses_practical_def_insulin",
+      "patterns": ["Tell about insulin", "Yes tell me the fourth one"],
+      "responses": ["Used to assess how an individual processes glucose and how the insulin in the body responds to those glucose levels. This test is typically ordered when an individual may be at risk for diabetes or has had elevated glucose levels previously. Still want to know more of definitions?"]
+      
+
+
+},
+
+ 
+{
+
+    "tag": "Diagnoses_practical_def_BMI",
+    "patterns": ["Tell about BMI", "Yes tell me the fifth one"],
+    "responses": ["Body Mass Index is a simple calculation using a person's height and weight. The formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in meters squared. Still want to know more of definitions?"]
+  
+       
+
+
+},
+  
+  
+  
+{
+
+    "tag": "Diagnoses_practical_def_DPF",
+    "patterns": ["Tell about Diabetes pedigree function", "Yes tell me the sixth one"],
+    "responses": ["It provided some data on diabetes mellitus history in relatives and the genetic relationship of those relatives to the patient. This measure of genetic influence gave us an idea of the hereditary risk one might have with the onset of diabetes mellitus. Let’s go to the diagnoses, shall we?"]
+  
+
+},
+
+
+
+{
+
+    "tag": "Diagnoses_practical_results",
+    "patterns": ["Go directly to diagnoses", "Yes let is do it " ,"continue to diagnoses ","diagnoses directly" ,"I Want To Know If I Have Diabetes"],
+    "responses": ["The simple instructions is to write your results for each attribute as if follows (Pregnancies, Glucose, Blood Pressure, Skin Thickness, Insulin, BMI, DiabetesPedigreeFunction, Age) for example (0, 137, 40, 35, 168, 43.1, 2.288, 33)"]
+
+}
+
+  
+
+   
+  
+  ]
+}
+
